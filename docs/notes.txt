@@ -1,0 +1,24 @@
+1. Im having problems choosing a data set as its confusing how ill clean it.
+
+
+# STARTING WITH NAMES.
+- I used print(df.info()) to show me information about the csv. It showed me there were 97 no-null objets in the names column. Theres a total of 99 columns so 3 names of chicken are missing/are null. I have decided since its a small data set and theres only 3 missing name, i will add 3 new names to the missing values.
+
+- I used this code to show me exactly where the missing names are
+    missing_names = df[df["name"].isnull()]
+    print(missing_names)
+Now i need to insert the missing names into  those rows.
+
+-With the 3 columns that has missing names, i changed the names by using
+    df.loc[29,"name"] = "Rhodey" , loc= location, "name" = the name of the column you want to change, "= Rhodey", what you want it to change to 
+- I verified that the df was changed by using to ways, looking up the speific cell via print(df.loc(29)) and using print(df.info()) to confirm there's no null 
+
+- Now i will change the null ages and the null sizes.
+
+
+
+
+
+
+
+

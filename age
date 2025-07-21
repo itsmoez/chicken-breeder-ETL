@@ -1,0 +1,101 @@
+            name             breed      age        size
+0    Featheraldo           Leghorn        2         NaN
+1    Featherster           Leghorn        8           l
+2      Chickaldo     Plymouth Rock      NaN       small
+3       Peepette            Sussex        0         med
+4      Peepzilla            Silkie        0  veri large
+5        Henaldo         Orpington        4         med
+6        Eggaldo         Wyandotte        3  very small
+7         Clucko     Plymouth Rock        1         NaN
+8     Cluckzilla            Cochin        5          vl
+9        Henster         Orpington       10  veri large
+10    Cluckzilla        Australorp  unknown         NaN
+11      Peepster           Leghorn        2         med
+12      Eggzilla  Rhode Island Red       10  very small
+13  Featherzilla         Orpington        4       small
+14       Peepina         Wyandotte      NaN  Very large
+15     Chickster     Plymouth Rock        2         med
+16     Chickette            Brahma        2      medium
+17    Cluckzilla  Rhode Island Red  unknown         med
+18         Peepo            Brahma        0          vl
+19     Peepzilla         Wyandotte  unknown  very small
+20     Cluckette  Rhode Island Red        1  veri large
+21        Roosty            Brahma        8        smal
+22      Chickina            Cochin        9         NaN
+23     Chickette            Brahma        7           s
+24  Featherzilla            Brahma      NaN           l
+25      Peepster            Cochin        6           l
+26      Cluckina            Sussex        6         NaN
+27     Chickette        Australorp        2       small
+28          Eggy     Plymouth Rock        9       small
+29        Rhodey  Rhode Island Red        8           m
+30      Peepette            Cochin        2           m
+31     Roostette            Brahma        4  veri large
+32         Peepy            Sussex        9         NaN
+33        Chicky  Rhode Island Red        1  Very large
+34       Rocky P     Plymouth Rock        9         NaN
+35          Heny     Plymouth Rock        0      medium
+36   Featherette         Wyandotte      NaN           l
+37      Roostina        Australorp      NaN  very small
+38          Eggy            Silkie        9       small
+39          Eggy         Wyandotte        7         med
+40        Eggina            Cochin        4        smal
+41    Chickzilla  Rhode Island Red       10         med
+42        Chicky        Australorp        7        smal
+43         Peepy            Brahma        5         NaN
+44        Chicko            Sussex        8        smal
+45     Chickaldo  Rhode Island Red        5        smal
+46      Feathery           Leghorn        3         NaN
+47     Chickette            Sussex  unknown           m
+48   Featherster         Orpington        7  very small
+49      Henzilla         Orpington        4         NaN
+50     Roostaldo     Plymouth Rock        0         med
+51     Cluckaldo         Orpington        9           s
+52       Eggster            Cochin        6           s
+53   Featherster            Silkie      NaN         NaN
+54      Cluckina            Silkie        5          vl
+55        Roosto            Silkie        4          vl
+56       Peepina            Brahma       10       small
+57        Roosto           Leghorn        1         NaN
+58     Roostster        Australorp        9  veri large
+59        Roosto      UnknownBreed        5       small
+60      Cluckina            Sussex      NaN           l
+61     Cluckette         Wyandotte        8           s
+62          Heny     Plymouth Rock        3         NaN
+63          Eggo            Silkie  unknown           s
+64        Clucko           Leghorn       10      medium
+65       Henaldo      UnknownBreed        6           m
+66        Henina      UnknownBreed        0  Very large
+67       Henette            Silkie        5  very small
+68   Featherster            Cochin        5           s
+69     Chickaldo           Leghorn        1         NaN
+70        Clucko        Australorp        8          vl
+71     Roostette         Orpington        6          vl
+72        Eggina           Leghorn        3         NaN
+73      Henzilla         Orpington  unknown           l
+74        Eggina        Australorp        8  veri large
+75      Chickina      UnknownBreed       10           s
+76    Cluckzilla  Rhode Island Red        3  very small
+77       Peepina            Brahma       10           l
+78    Cluckzilla           Leghorn        2      medium
+79     Chickaldo      UnknownBreed        0           l
+80          Eggo     Plymouth Rock        8  very small
+81       Ibrahim            Brahma        5         med
+82     Roostaldo            Silkie        7         NaN
+83      Roostina         Orpington        4          vl
+84     Peepzilla            Brahma  unknown      medium
+85      Peepster        Australorp        2         NaN
+86          Eggy      UnknownBreed        5        smal
+87     Cluckaldo            Cochin       10          vl
+88     Cluckster         Orpington        8           m
+89      Feathery            Silkie        9         NaN
+90       Eggaldo            Silkie        4       small
+91      Chickina            Sussex      NaN         NaN
+92     Roostaldo  Rhode Island Red        6  Very large
+93   Featherster         Wyandotte        7      medium
+94      Peepette      UnknownBreed        2          vl
+95     Peepzilla            Cochin  unknown           s
+96     Chickaldo     Plymouth Rock        8      medium
+97     Chickaldo         Orpington        3  very small
+98         Peepo         Wyandotte        4         NaN
+99       Eggette            Sussex        3  veri large
