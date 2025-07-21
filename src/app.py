@@ -7,7 +7,7 @@ import pandas as pd
 #    print(messy_data)
 
 
-file_path = "C:/Users/MohammedA(DE-LON16)/Documents/etl-project-1/data/messy_chicken_data_3.csv"
+file_path = "C:/Users/MohammedA(DE-LON16)/Documents/etl-project-1/chicken-breeder-ETL/data/messy_chicken_data_3.csv"
 
 # 1. load your data
 
@@ -127,4 +127,4 @@ def clean_age_column(df):
 
 # Usage:
 df = clean_age_column(df)
-print(df.head())
+print(df.info())
