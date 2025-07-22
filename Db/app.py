@@ -128,3 +128,6 @@ def clean_age_column(df):
 # Usage:
 df = clean_age_column(df)
 print(df.info())
+
+df.to_csv("cleaned_chicken_data.csv")
+print("Data cleaning complete!")
