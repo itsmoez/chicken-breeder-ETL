@@ -13,6 +13,63 @@ This project demonstartes an ETL (Extract, Transform, Load) pipeline that extrac
     * psycopg2 : For Database interaction
     * dotenv: To handle enviromental variables
 
+# Prerequistes
+* Python 3.13
+* Docker
+* Required Python packages (see installation)
+
+# Installation 
+1. Clone the repo
+
+bash
+git clone
+cd chicken-breeder-ETL
+
+2. Install Python dependencies
+bash
+pip install pandas psycopg2-binary python-dotenv
+
+3. Set up enviromental variables - Create a .env file in the Db directory with:
+
+env
+postgres_host=localhost
+postgres_user=postgres
+postgres_pass=password123
+postgres_db=chicken
+postgres_port=5432
+
+# Running the Project
+*Step 1: Start PostgreSQL Database*
+Run PostgreSQL in Docker:
+
+bash
+docker run --name postgres-chicken -e POSTGRES_PASSWORD=password123 -p 5432:5432 -d postgres
+
+Create the chicken database:
+bashdocker exec -it postgres-chicken psql -U postgres -c "CREATE DATABASE chicken;"
+
+*Step 2: Clean and Load Data*
+Navigate to the Db directory and run the ETL pipeline:
+bashcd Db
+python db_chicken_alt_solution.py
+This will:
+
+Clean the messy chicken data (removes invalid records, standardizes formats)
+Create the database tables
+Load approximately 79 cleaned chicken records into PostgreSQL
+
+*Step 3: View Data (Optional)*
+Option A: Using Adminer (Web UI)
+bashdocker run --name adminer -p 8080:8080 --link postgres-chicken:db -d adminer
+Then visit: http://localhost:8080
+Connection details:
+
+System: PostgreSQL
+Server: postgres-chicken
+Username: postgres
+Password: password123
+Database: chicken
+
 # Lessons Learned :
 
 * Pandas
